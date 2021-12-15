@@ -5,15 +5,13 @@
 ## Usage
 
 ```typescript
-import randomItem, {
-  randomMultipleItems,
-} from "https://deno.land/x/random_item/mod.ts";
+import palindrome from "https://deno.land/x/palindrome/mod.ts";
 
-randomItem(["🐴", "🦄", "🌈"]);
-//=> '🦄'
+palindrome("owo");
+//=> true
 
-randomMultipleItems(["🐴", "🦄", "🌈"], 2);
-//=> ['🌈', '🦄']
+palindrome("zero");
+//=> false
 ```
 
 ## License
