@@ -7,11 +7,9 @@
 ```typescript
 import palindrome from "https://deno.land/x/palindrome/mod.ts";
 
-palindrome("owo");
-//=> true
+palindrome("owo"); // true
 
-palindrome("zero");
-//=> false
+palindrome("zero"); // false
 ```
 
 ## License
