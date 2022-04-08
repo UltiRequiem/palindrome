@@ -5,6 +5,8 @@
 
 A word, phrase, or sequence that reads the same backward as forward.
 
+## Usage
+
 The API is the same on all this platforms ✔️
 
 ### [Deno 🦕](https://deno.land/x/palindrome)
