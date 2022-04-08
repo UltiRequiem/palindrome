@@ -1,13 +1,35 @@
-export function naivePalindrome(text: string) {
-  return text.split("").reverse().join("") === text;
+export interface PalindromeOptions {
+  text: string;
+  caseSensitive?: boolean;
 }
 
-export default function palindrome(text: string) {
-  for (let i = 0; i < Math.floor(text.length / 2); i++) {
-    if (text[i] !== text[text.length - 1 - i]) {
-      return false;
-    }
+export function palindrome(options: PalindromeOptions | string): boolean;
+export function palindrome(
+  options: PalindromeOptions | string,
+  verbose: boolean,
+): { result: boolean; reversed: string };
+export function palindrome(
+  options: PalindromeOptions | string,
+  verbose = false,
+) {
+  if (typeof options === "string") {
+    options = { text: options };
   }
 
-  return true;
+  const { caseSensitive = true } = options;
+
+  let { text } = options;
+
+  if (!caseSensitive) {
+    text = text.toLowerCase();
+  }
+
+  const reversed = [...text].reverse().join("");
+  const result = text === reversed;
+
+  if (verbose) {
+    return { reversed, result };
+  }
+
+  return result;
 }
