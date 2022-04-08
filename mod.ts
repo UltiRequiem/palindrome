@@ -3,11 +3,16 @@ export interface PalindromeOptions {
   caseSensitive?: boolean;
 }
 
+export interface PalindromeResult {
+  result: boolean;
+  reversed: string;
+}
+
 export function palindrome(options: PalindromeOptions | string): boolean;
 export function palindrome(
   options: PalindromeOptions | string,
   verbose: boolean,
-): { result: boolean; reversed: string };
+): PalindromeResult;
 export function palindrome(
   options: PalindromeOptions | string,
   verbose = false,
