@@ -1,7 +1,7 @@
 {
   "name": "@ultirequiem/palindrome",
   "version": "0.0.0-development",
-  "description": "",
+  "description": "Check whether a string is a palindrome.",
   "type": "module",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -17,7 +17,12 @@
   "engines": {
     "node": ">=20"
   },
-  "keywords": [],
+  "keywords": [
+    "string",
+    "palindrome",
+    "esm",
+    "typescript"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
