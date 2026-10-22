@@ -1,4 +1,4 @@
-import { palindrome } from "./mod.ts";
+import { palindrome } from "../src/index.js";
 
 console.log(palindrome("racecar"));
 console.log(palindrome("Lol"));
