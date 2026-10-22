@@ -38,11 +38,6 @@ Eg 👉
 [Script Tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
 ↔️ [JSDelivr](https://cdn.jsdelivr.net/npm/@ultirequiem/palindrome)
 
-## Documentation
-
-Is hosted on
-[Deno Doc](https://doc.deno.land/https://deno.land/x/palindrome/mod.ts) 📄
-
 ## Support
 
 Open an Issue, I will check it as soon as possible 👀
