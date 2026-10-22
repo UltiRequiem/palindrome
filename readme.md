@@ -1,11 +1,11 @@
 # palindrome
 
+A word, phrase, or sequence that reads the same backward as forward.
+
 [![npm](https://img.shields.io/npm/v/@ultirequiem/palindrome?logo=npm&color=cb3837)](https://www.npmjs.com/package/@ultirequiem/palindrome)
 [![npm downloads](https://img.shields.io/npm/dm/@ultirequiem/palindrome?color=cb3837)](https://www.npmjs.com/package/@ultirequiem/palindrome)
 [![CI](https://github.com/UltiRequiem/palindrome/actions/workflows/ci.yaml/badge.svg)](https://github.com/UltiRequiem/palindrome/actions/workflows/ci.yaml)
 [![codecov](https://codecov.io/gh/UltiRequiem/palindrome/graph/badge.svg)](https://codecov.io/gh/UltiRequiem/palindrome)
-
-A word, phrase, or sequence that reads the same backward as forward.
 
 ## Install
 
