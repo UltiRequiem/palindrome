@@ -1,6 +1,6 @@
 # palindrome
 
-A word, phrase, or sequence that reads the same backward as forward.
+Check whether a string is a palindrome.
 
 [![npm](https://img.shields.io/npm/v/@ultirequiem/palindrome?logo=npm&color=cb3837)](https://www.npmjs.com/package/@ultirequiem/palindrome)
 [![npm downloads](https://img.shields.io/npm/dm/@ultirequiem/palindrome?color=cb3837)](https://www.npmjs.com/package/@ultirequiem/palindrome)
